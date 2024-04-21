@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+body {
+    background-color: #121214;
+    background-image: url(./imag/Fundo.svg);
+    background-position-x: center;
+    background-position-y: -715%;
+}
+#app {
+    margin: 52px auto;
+    width: fit-content;
+    
+}
+header {
+    margin-bottom: 63px;
+    text-align: center;
+}
+.card {
+    
+    padding: 32px 23px;
+    background: #1D1C19;
+    border-bottom: 2px solid #F7DD43;
+    border-radius: 6px;
+    text-align: center;
+}
+h2 {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    color: #F7DD43;
+    margin-bottom: 53px;
+    padding: 8px 16px;
+    border: 1px solid #746615;
+    border-radius: 6px;
+    width: fit-content;
+    margin-inline: auto;
+}
+span {
+    font-size: 14px;
+    color: #E1E1E6;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    list-style: none;
+    width: 270px;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      
+    }
+
+li + li {
+    padding-top: 24px;
+    border-top: 1px solid #323238;
+
+
+}
+    strong {
+        font-weight: 900;
+        font-size: 36px;
+        color: #E1E1E6;
+        line-height: 125%;
+    }
